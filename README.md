@@ -35,7 +35,7 @@ for sent in doc.sentences:
     bracket_sent = str(sent.constituency)
 
 print (bracket_sent)
-print_parsing(bracket_sent)
+stanza_parsing_tree_viz(bracket_sent)
 ```
 
 ```
@@ -78,7 +78,7 @@ for sent in doc.sentences:
     bracket_sent = str(sent.constituency)
 
 print (bracket_sent)
-print_parsing(bracket_sent)
+stanza_parsing_tree_viz(bracket_sent)
 ```
 
 ```
